@@ -11,3 +11,4 @@
 ### Lauch telegram-bot: <br><br> <pre>docker build -t ai-bot .</pre> <pre>docker run -it --rm --network=host ai-bot</pre>
 
 ### [Chatflow](https://github.com/Piankov-Michail/dd_ai_production_practice/blob/main/Chatflow.json) for importation <br>
+### [Data for RAG in Chatflow (q_a format)](https://github.com/Piankov-Michail/dd_ai_production_practice/blob/main/q_a.txt)
