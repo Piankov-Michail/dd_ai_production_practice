@@ -19,4 +19,4 @@
 * [Google Custom Search Api Key](https://developers.google.com/custom-search/v1/overview?hl=ru)
 #### [Ollama](https://ollama.com)
 #### [Docker Installation and Docks](https://docs.docker.com/engine/install/ubuntu)
-#### [Pinecpone for Document store](https://www.pinecone.io)
+#### [Pinepone for Document store](https://www.pinecone.io)
