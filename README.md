@@ -21,12 +21,13 @@ sudo apt update && sudo apt upgrade -y
 ### Launch Ollama with Qwen3 1.7B and nomic-embed-text for embeddings: <br><br> 
 ```bash
 docker run -d --network=host --gpus=all -v ollama:/root/.ollama --name ollama ollama/ollama
-docker exec -d -it ollama ollama run qwen3:1.7b</pre> <pre>docker exec -d -it ollama ollama pull nomic-embed-text:v1.5
+docker exec -d -it ollama ollama run qwen3:1.7b
+docker exec -d -it ollama ollama pull nomic-embed-text:v1.5
 ```
 ### Set values TELEGRAM_TOKEN and BOT_USERNAME in bot.py <br>
 ### Launch telegram-bot: <br><br> 
 ```bash
-docker build -t ai-bot
+docker build -t ai-bot .
 docker run -d -it --rm --network=host ai-bot
 ```
 ---
