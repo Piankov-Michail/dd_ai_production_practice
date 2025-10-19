@@ -26,7 +26,8 @@ docker exec -d -it ollama ollama run qwen3:1.7b</pre> <pre>docker exec -d -it ol
 ### Set values TELEGRAM_TOKEN and BOT_USERNAME in bot.py <br>
 ### Launch telegram-bot: <br><br> 
 ```bash
-docker build -t ai-bot .</pre> <pre>docker run -d -it --rm --network=host ai-bot
+docker build -t ai-bot
+docker run -d -it --rm --network=host ai-bot
 ```
 ---
 ### [Chatflow](https://github.com/Piankov-Michail/dd_ai_production_practice/blob/main/Chatflow.json) for custom importation <br>
